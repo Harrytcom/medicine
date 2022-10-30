@@ -90,6 +90,7 @@ body {
   }
 } */
 
+/* ================================== HEADER SECTION ================================== */
 .header {
   position: absolute;
   top: 0;
@@ -149,7 +150,7 @@ body {
   font-weight: 700;
   font-size: 10px;
   line-height: 1.2;
-  letter-spacing: 1px;
+  letter-spacing: 0.14em;
   color: #000;
 }
 
@@ -160,7 +161,7 @@ body {
   font-style: normal;
   font-size: 10px;
   line-height:  1.2;
-  letter-spacing: 1px;
+  letter-spacing: 0.14em;
   color: #fcfdfe;
   text-transform: uppercase;
   padding: 14px 30px;
@@ -179,4 +180,104 @@ body {
 
 .button_blue:hover {
   background-color: #5393f9;
+}
+
+/* ==================================  GET-STARTED SECTION ==================================  */
+.get-started {
+  background-color: #fafbfd;
+  padding: 150px 0 50px 0;
+}
+.get-started__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.get-started__content {
+  flex: 0 1 48%;
+  padding: 0 0 0 20px;
+
+}
+
+/* ==================================  TEXT BLOCK ==================================  */
+.get-started__text-block {
+  max-width: 410px;
+}
+
+.text-block {
+}
+
+.text-block__title {
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 126%;
+}
+
+.text-block__title:not(:last-child) {
+  margin: 0 0 12px 0;
+}
+
+.text-block__title_pink span {
+  color: #ec5863;
+}
+
+.text-block__title_blue span {
+  color: #4285f4;
+}
+
+.text-block__text {
+  color: #616161;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+}
+
+.text-block__text:not(:last-child) {
+  margin: 0 0 24px 0;
+}
+
+.text-block__button {
+}
+
+.get-started__video {
+  padding: 0 0 0 20px;
+  flex: 1 1 100%;
+}
+.video {
+  display: inline-flex;
+  align-items: center;
+}
+.video__icon {
+  flex: 0 0 44px;
+}
+.video__body {
+  padding: 0 0 0 12px;
+}
+.video__title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 126%;
+  letter-spacing: 0.08em;
+  color: #B0B0B0;
+}
+
+.video__title:not(:last-child) {
+  margin: 0 0 5px 0;
+}
+.video__text {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 126%;
+  letter-spacing: 0.165em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.get-started__image {
+  flex: 0 1 52%;
+}
+
+.get-started__image img {
+  max-width: 100%;
 }
