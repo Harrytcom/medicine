@@ -246,11 +246,6 @@ body {
   flex: 1 1 100%;
 }
 
-/* .get-started__video:hover {
-  opacity: .7;
-  transition: opacity .3s ease;
-} */
-
 .video {
   display: inline-flex;
   align-items: center;
