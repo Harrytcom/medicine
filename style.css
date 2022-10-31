@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -90,7 +89,7 @@ body {
   }
 } */
 
-/* ================================== HEADER SECTION ================================== */
+/* ==================================  HEADER SECTION  ================================== */
 .header {
   position: absolute;
   top: 0;
@@ -153,7 +152,9 @@ body {
   letter-spacing: 0.14em;
   color: #000;
 }
+/* ==================================  end of HEADER SECTION  ================================== */
 
+/* ==============  BUTTONS  =============== */
 .button {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
@@ -182,7 +183,8 @@ body {
   background-color: #5393f9;
 }
 
-/* ==================================  GET-STARTED SECTION ==================================  */
+/* ==============  end of BUTTONS ================ */
+/* ==================================  GET-STARTED SECTION  ==================================  */
 .get-started {
   background-color: #fafbfd;
   
@@ -220,11 +222,11 @@ body {
   }
 }
 
-/* ==================================  TEXT BLOCK ==================================  */
 .get-started__text-block {
   max-width: 410px;
 }
 
+/* ============  TEXT BLOCK  ==================  */
 .text-block {
 }
 
@@ -262,12 +264,13 @@ body {
 
 .text-block__button {
 }
+/* ============  end of TEXT BLOCK  ==================  */
 
 .get-started__video {
   padding: 40px 0 0 20px;
   flex: 1 1 100%;
 }
-
+/* ===============  VIDEO BLOCK  ================  */
 .video {
   display: inline-flex;
   align-items: center;
@@ -313,6 +316,7 @@ body {
   transition: letter-spacing .3s ease;
   letter-spacing: 1em;
 }
+/* =================  end of VIDEO BLOCK  =================  */
 
 .get-started__image {
   flex: 0 1 52%;
@@ -356,9 +360,9 @@ body {
     font-size: 34px;
   }
 }
-/* ==================================  end of GET-STARTED SECTION ==================================  */
+/* ==================================  end of GET-STARTED SECTION  ==================================  */
 
-/* ==================================  STAY-SAFE SECTION ==================================  */
+/* ==================================  STAY-SAFE SECTION  ==================================  */
 .stay-safe {
 }
 .stay-safe__container {
@@ -385,3 +389,4 @@ body {
 }
 .button {
 }
+/* ==================================  end of STAY-SAFE SECTION  ==================================  */
