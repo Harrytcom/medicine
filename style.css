@@ -362,7 +362,8 @@ body {
 }
 /* ==================================  end of GET-STARTED SECTION  ==================================  */
 
-/* ==================================  STAY-SAFE SECTION  ==================================  */
+
+/* ==================================  STAY-SAFE SECTION  ===========================================  */
 .stay-safe {
   padding: 80px 0;
 }
@@ -408,6 +409,7 @@ body {
 
 .stay-safe__text-block {
 }
+
 /* =================  MEDIA BLOCK  =================  */
 .media {
   width: 373px;
@@ -455,19 +457,51 @@ body {
   width: 77px;
   height: 77px;
 }
+@media (max-width: 499.98px) {
+  .media__item_ {
+    width: 59px;
+    height: 59px;
+  }
+}
+
 .media__item_1 {
   top: 0;
   left: 0;
   width: 147px;
   height: 147px;
 }
+
+@media (max-width: 499.98px) {
+  .media__item_1 {
+    width: 111px;
+    height: 111px;
+  }
+}
+
 .media__item_2 {
   bottom: 0;
   left: 33px;
 }
+
+
+
 .media__item_3 {
   bottom: 107px;
   right: 34px;
+}
+
+@media (max-width: 499.98px) {
+  .media__item_2 {
+    bottom: 0;
+    left: 24px;
+  }
+}
+
+@media (max-width: 499.98px) {
+  .media__item_3 {
+    bottom: 70px;
+    right: 16px;
+  }
 }
 /* =================  end of MEDIA BLOCK  =================  */
 
