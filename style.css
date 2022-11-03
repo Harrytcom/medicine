@@ -250,6 +250,10 @@ body {
   color: #4285f4;
 }
 
+.text-block_center {
+  text-align: center;
+}
+
 .text-block__text {
   color: #616161;
   font-weight: 400;
@@ -260,6 +264,11 @@ body {
 
 .text-block__text:not(:last-child) {
   margin: 0 0 24px 0;
+}
+
+.text-block__text_max-w {
+  max-width: 620px;
+  margin: 0 auto;
 }
 
 .text-block__button {
@@ -671,4 +680,14 @@ body {
   .banner__item:not(:last-child) {
     margin: 0 0 15px 0;
   }
+}
+/* ================================== end of EXPERTS SECTION  ==================================  */
+
+
+/* ================================== HEALTHCARE SECTION  ==================================  */
+.healthcare {
+}
+.healthcare__container {
+}
+.healthcare__text-block {
 }
