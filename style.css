@@ -623,6 +623,7 @@ body {
   flex: 0 1 50%;
   box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .experts__video iframe {
