@@ -686,8 +686,48 @@ body {
 
 /* ================================== HEALTHCARE SECTION  ==================================  */
 .healthcare {
+  margin: 80px 0 30px 0;
 }
 .healthcare__container {
 }
-.healthcare__text-block {
+.healthcare__body {
+  display: flex;
+  flex-direction: row;
+  max-width: 980px;
+  margin: 0 auto;
+  gap: 72px;
 }
+.healthcare__text-block {
+  margin: 0 0 45px 0;
+}
+.healthcare-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 1 33.333%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+  padding: 35px 17px;
+}
+.healthcare-item__image {
+  margin: 0 0 58px 0;
+}
+.healthcare-item__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #000000;
+}
+.healthcare-item__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #616161;
+}
+
