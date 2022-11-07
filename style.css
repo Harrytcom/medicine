@@ -104,6 +104,8 @@ body {
   align-items: center;
 }
 
+
+
 .header__menu {
   flex: 1 1 auto;
 }
@@ -112,6 +114,12 @@ body {
   flex: 0 0 252px;
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+  .header__button {
+    flex: 0 0 100px;
+  }
 }
 
 .menu {
@@ -141,6 +149,25 @@ body {
   }
 }
 
+@media (max-width: 767.98px) {
+  .menu {
+    display: none;
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .header__button {
+    flex: 0 0 100px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .menu {
+    display: none;
+  }
+}
+
 .menu__link {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -150,8 +177,55 @@ body {
   letter-spacing: .14em;
   color: #000;
 }
+
+@media (max-width: 767.98px) {
+  .header__container {
+    justify-content: space-between;
+  }
+}
 /* ==================================  end of HEADER SECTION  ================================== */
 
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background: #272727;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+/* ==================================  MENU-BURGER BLOCK  ================================== */
+.toggle-menu {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 15%;
+  /* border: 3px solid #000; */
+  order: 3;
+}
+
+@media (min-width: 767.98px) {
+  .toggle-menu  {
+    display: none;
+  }
+}
+
+.line {
+  width: 20px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #ec5863;
+}
 /* ==============  BUTTONS  =============== */
 .button {
   display: inline-block;
@@ -167,6 +241,13 @@ body {
   border-radius: 5px;
   background-color: #ec5863;
   transition: background-color .3s ease;
+}
+
+@media (max-width: 767.98px) {
+  .button {
+    padding: 7px 14px;
+    order: 2;
+  }
 }
 
 .button:hover {
