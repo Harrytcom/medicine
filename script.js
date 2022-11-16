@@ -1,5 +1,9 @@
-var toggleButton = document.querySelector('.toggle-menu');
+var toggleButton = document.querySelector('.toggle-menu-js');
+const menu = document.querySelector('.menu');
+
 var navBar = document.querySelector('.nav-bar');
+
 toggleButton.addEventListener('click', function () {
-	navBar.classList.toggle('toggle');
-});
+    menu.classList.add('menu_active-js');
+  }
+);
